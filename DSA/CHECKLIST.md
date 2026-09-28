@@ -15,10 +15,12 @@ so you know *what* a problem is testing before you open it, not just its name.
 **Patterns:** array traversal · two pointers · sliding window · prefix sums · Kadane's algorithm ·
 in-place modification · matrix traversal · intervals
 
+**Notes + review tracker:** [notes/01-arrays.md](notes/01-arrays.md)
+
 **Easy**
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/) — done, see `two_sum_1.py`
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — see `best_time_stock.py`
+- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) — see `contains_duplicate.py`
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 **Medium**

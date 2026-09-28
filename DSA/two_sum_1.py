@@ -1,17 +1,17 @@
 from typing import List
 
+# Brute force: check every pair (i, j)   → O(n²) time, O(1) space
+# Hashmap:     one pass, dict of seen    → O(n) time,  O(n) space
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        seen = {}
-        for i, num in enumerate(nums):
-            complement = target - num
-            if complement in seen:
-                return [seen[complement], i]
-            seen[num] = i
-            print(f"{seen}")
+        prevMap = {}
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in prevMap:
+                return [prevMap[diff], i]
+            prevMap[n] = i
         return []
-
 
 if __name__ == "__main__":
     sol = Solution()
